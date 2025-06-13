@@ -9,7 +9,6 @@ import json
 from datetime import datetime
 import hashlib
 import math
-import emoji
 
 # 配置jieba词典
 jieba.set_dictionary('dict.txt.big') if os.path.exists('dict.txt.big') else None
